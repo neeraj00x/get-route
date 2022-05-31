@@ -1,5 +1,6 @@
 body {
-  margin: 0;
+  margin: 0px;
+  margin-top: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -7,7 +8,91 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+#root {
+  margin: 0;
+}
+
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+
+} */
+.header {
+  margin: 0px;
+  position: fixed;
+}
+
+.header img {
+  position: absolute;
+  left: 50px;
+}
+
+.text {
+  padding: 10px;
+}
+
+.content {
+  position: absolute;
+  top: 73px;
+  margin: 0px;
+  width: 100%;
+  background-color: #f8fcfc;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 20px 150px;
+  background-color: #f8fcfc;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 0px;
+  height: 70vh;
+}
+
+.map {
+  width: 50%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 10px 40px;
+}
+
+.mainForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+label {
+  float: left;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+}
+
+button {
+  padding: 15px 30px;
+  border-radius: 25px;
+  background-color: #1B31A8;
+  color: white;
+  border: none;
+}
+
+.distance {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* marg */
 }
